@@ -1,0 +1,228 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css"); 
+
+body{
+	background-color: white;
+      font-family: 'Kanit';
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-header{
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -ms-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+}
+
+.navbar {
+      font-size: 15px !important;
+
+      margin-bottom: 0; /*  It Bautifull-Deleted Section navbar  */
+      background-color: rgba(245,166,35,0.9);
+      border: 0;
+      letter-spacing: 3px;
+      opacity: 0.9;
+      padding: 5px;
+                        /*  Animation */
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -ms-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+} 
+.logo {
+ 	max-width: 70px;
+ 	margin-top: -22px;
+      margin-left: -10px;
+}
+.iconname {
+	position: absolute;
+	margin-top: 12px;
+	font-size: 16px;
+      color: white;
+      margin-left: -10px;
+}
+li a{
+      color: white;
+      opacity: 0.9;
+}
+li a:hover{
+      color: black;
+      font-weight: bold;
+}
+
+/*===================================== Animation Navbar ====================================*/
+nav.navbar.shrink {
+      font-size: 15px;
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -ms-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+
+      margin-bottom: 0;
+      background-color: rgba(245,166,35,0.9);
+      border: 0;
+      letter-spacing: 4px;
+      opacity: 0.9;
+      padding: 9px;
+      background-color: #9AC124;
+}
+nav.shrink a {
+      font-size: 15px;
+}
+
+/* =============================  NAV BAR && BANNER ==========================================*/
+
+.banner.loadBanner img{   /* Animate Banner */
+      opacity: 1; 
+      background-position: 50% 50%; 
+      overflow: hidden; 
+      transform-style: flat; 
+      backface-visibility: hidden; 
+      transform-origin: 50% 50% 0px; 
+      transform: matrix(1.5, 0, 0, 1.5, 0, 0); 
+      transition: all 10s;
+}
+
+.contactNav{
+      background-color: #413535;
+      border-radius: 5px;
+}
+
+footer {
+      background-color: #222;
+      color: white;
+      padding: 32px;
+      overflow: auto;
+      opacity: 0.9;
+  } 
+/* ================================ END NAV BAR && BANNER =====================================*/
+
+/*=========================== PRODUCT ITEM =============================*/
+#sovenir1{
+     margin:22% 14%;
+     position: absolute;
+     font-size: 25px;
+     z-index: 10;  
+     color: #222;
+     background-color: rgba(245,166,35,0.9);
+     max-width: 74%;
+     text-align: center;
+     border-radius: 5px;
+     opacity: 0.8;
+     animation-name: mymove;
+     animation-duration: 10s;
+     -webkit-transform-origin: left center;
+     -ms-transform-origin: left center;
+     transform-origin: left center;
+}
+#sovenir2{
+     margin:2% 21%;
+     position: absolute;
+     font-size: 18px;
+     color: white;
+     background-color: #413535;
+     max-width: 50%;
+     border-radius: 5px;
+     text-align: center;
+}
+
+@-webkit-keyframes mymove {
+  0%  {
+    left: 0px;
+    top: -200px;
+  }
+  15% {
+    left: 0px;
+    top: 30px;
+  }
+  30% {
+    left: 0px;
+    top: -20px;
+  }
+  45% {
+    left: 0px;
+    top: 10px;
+  }
+  60% {
+    left: 0px;
+    top: -10px;
+  }
+  75% {
+    left: 0px;
+    top:  10px;
+  }
+  100% {
+    left: 0;
+    top:  0;
+  }
+}
+.all-product{
+      margin-top: 20px;
+      padding: 15px;
+      font-size: 22px;
+      text-align: center;
+      color: black;
+      background-color: white;
+}
+
+/*============== Product ====================*/
+.product{
+      float: left;
+      padding: 20px 0px 20px 0px;
+      width: 100%;
+      border-top: 1px solid #E8E8E8;
+      border-bottom: 1px solid #E8E8E8;
+      text-align: center;
+}
+.product a{
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      font-size: 17px;
+}
+.product a:hover{
+      color: rgba(245,166,35,0.9);
+      font-weight: bold;
+}
+.thumbnail img:hover{
+      padding: 0;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -ms-transition: all 300ms ease;
+      -o-transition: all 300ms ease;
+      transition: all 300ms ease;
+}
+.thumbnail img{
+      padding: 20px;
+      -webkit-transition: all 500ms ease;
+      -moz-transition: all 500ms ease;
+      -ms-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+      transition: all 500ms ease;
+}
+#map {
+    width:100%;
+    height:450px;   
+}
+
+.site-footer{
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.bottom-footer{
+  border-top: 1px solid #b2b2b2;
+  margin-top: 30px;
+  padding-top: 10px;
+  color: #b2b2b2;
+  text-align: center;
+
+}
+
+

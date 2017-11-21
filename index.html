@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>หน้าแรก - เม็ดบัวทอดแม่จินดา </title>
+	<link rel="shortcut icon" href="logo2.png" />
+	<!-- Bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<!-- jQuery Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" onload="myFunction()">
+	<nav class="navbar navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar" style="background-color: white;"></span>
+	        <span class="icon-bar" style="background-color: white;"></span>
+	        <span class="icon-bar" style="background-color: white;"></span>                       
+	      </button>
+	      <span class="navbar-brand" href="#"><img class="logo" src="logo2.png"></span><span class="iconname">เม็ดบัวทอดแม่จินดา
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	      	<li id="home"><a href="#home">หน้าแรก</a></li>
+	        <li class="dropdown" id="product">
+	          	<a class="dropdown-toggle" data-toggle="dropdown" href="#product">สินค้าของเรา
+	          	<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li id="product2"><a href="#">เม็ดบัวทอด</a></li>
+	            <li id="product2"><a href="#">ดีบัวอบแห้ง</a></li>
+	            <li id="product2"><a href="#">ของฝาก อื่นๆ</a></li> 
+	          </ul>
+	        </li>
+	        <li id="about"><a href="#about">เกี่ยวกับเรา</a></li>
+	        <li id="googlemap"><a href="#map">แผนที่ร้าน</a></li>
+	        <li id="contact" class="contactNav"><a href="#">ติดต่อเรา</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+<!--Product Content-->
+<div class="container-fluid">
+	<!-- Pichit Souvenir-->
+	<div class="row">
+	  	<div class="animation">
+	  		<div class="col-xs-12 col-sm-6 col-md-8" id="sovenir1">ของฝากจากเมืองพิจิตร <img src="images/alligator.png" width="40px;">
+	   		<div class="col-xs-12 col-sm-6 col-md-8" id="sovenir2">เม็ดบัวทอด "แม่จินดา"
+			</div>
+			</div>
+		</div>
+	
+	  <!--================ Banner ==================-->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <div class="banner" id="home">
+	         <img class="img-responsive" src="images/item7.jpg" width="100%" height="600px;">
+		  </div> 
+	    </div>
+	  </div>
+	
+	  <!--================ Product ==================-->
+	  <div id="product"></div>
+  	  <div class="all-product"> 
+  	     <span class="glyphicon glyphicon-shopping-cart"></span>สินค้าของเรา 
+  	  </div>
+	  <br>
+		<!-- Product1 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test1.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสเค็ม (แบบกระปุก)</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product2 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test3.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสหวาน (แบบกระปุก)</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product3 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test1.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสสาหร่าย (แบบกระปุก)</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product4 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test4.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสเค็ม (แบบซอง)</h4>
+		        <h2><small>ราคา 35 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div id="product2"></div>
+		<!-- Product5 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test2.jpg" width="300px">
+		      <div class="caption">
+		        <h4>ดีบัวอบแห้ง (แบบกระปุก)</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product6 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test4.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสเค็ม</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product7 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test1.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสเค็ม</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product8 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test3.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสเค็ม</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Product9 -->
+		<div class="col">
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="images/test2.jpg" width="300px">
+		      <div class="caption">
+		        <h4>เม็ดบัวทอดรสเค็ม</h4>
+		        <h2><small>ราคา 60 บาท</small></h2>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div><!--END ROW1 -->
+	
+	<!--================ Contact ==================-->
+	<div id="about"></div>
+	<div class="all-product"> 
+  	      <span class="glyphicon glyphicon-film"></span> เกี่ยวกับเรา  
+	</div>
+	<br>
+	<!-- Contact1 --> 
+	<div class="col">
+	  <div class="col-sm-6 col-md-6">
+	    <div class="thumbnail">
+	        <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/Iq3aIXvLjGM" width="100%" height="350"></iframe>
+	      </div>
+	   </div>
+	 </div>
+	<!-- Contact2 --> 
+	<div class="row">
+	  <div class="col-sm-6 col-md-6">
+	    <div class="thumbnail">
+	        <iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/hYkmkWBSYs0?" width="100%" height="350"></iframe>
+	      </div>
+	   </div>
+	 </div>
+	
+
+	 <!--================ Map ==================-->
+	<div id="googlemap"></div>
+	<div class="row">
+		<div class="all-product"> 
+  	       <span class="glyphicon glyphicon-calendar"></span> แผนที่ร้าน
+		</div><br>
+		<ol class="breadcrumb">
+	  		<li id="map"></li>
+		</ol>
+	</div>
+
+</div> <!-- End container-fluid -->
+
+<!-- Footer -->
+<footer class="site-footer">
+   <div class="container">
+     <div class="row" id="contact">
+     	<div class="col-md-5">
+     		<h4>เม็ดบัวทอดแม่จินดา</h4>
+     		<address>
+     			<span class="glyphicon glyphicon-map-marker"></span> 295/5 ต.ในเมือง อ.เมือง จ.พิจิตร ไปรษณีย์ 66000
+     		</address>
+     	</div>
+     	<div class="col-md-4">
+     		<h4>ติดต่อสั่งซื้อ</h4>
+     		<p>
+     		<img src="/images/mobile2.png" width="30px; "> &nbsp;089-955-4823 <br>
+     		<img src="/images/line.png" width="30px" style="margin-top: 12px"> &nbsp;jeen_68 <br>
+     		<img src="/images/facebook.png" width="30px" style="margin-top: 12px"> &nbsp;เม็ดบัวทอดแม่จินดา พิจิตร
+     		</p>
+     	</div>
+     	<div class="col-md-3">
+     		<p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMaeJindaLotusSeeds%2F&amp;tabs&amp;width=265&amp;height=145&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=916496971759166" width="265" height="145" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe></p>
+     	</div>
+     </div>
+     <div class="bottom-footer">
+     	<div class="col-md-12">&copy; Copyright Meajinda 2017.</div>
+     </div>
+   </div>
+</footer> <!-- END Footer-->
+
+<script src="js/app.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ7IpCabPr_b44Ad8aZ7Rp6kWV3fkzQUU&callback=initMap"
+    async defer></script>
+
+</body>
+</html>
